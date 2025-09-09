@@ -75,18 +75,18 @@ body {
 }
 
 .footer {
-    background-color: #b364d7;   /* fond violet */
-    color: white;               /* texte en blanc */
-    text-align: center;         /* tout centré */
+    background-color: #b364d7;
+    color: white;
+    text-align: center;
     padding: 20px 10px;
-    margin-top: 20px;           /* espace au-dessus du footer */
+    margin-top: 20px;
 }
 
 .footer a {
-    color: white;             /* couleur spéciale pour l’email */
+    color: white;
     text-decoration: none;
 }
 
 .footer a:hover {
-    text-decoration: underline; /* effet au survol */
+    text-decoration: underline;
 }
