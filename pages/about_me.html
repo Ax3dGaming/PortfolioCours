@@ -3,26 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
     <title>Mon Portfolio</title>
 </head>
 <body>
     <header>
-        <img src=""/>
-        <h1>Bienvenue sur mon Portfolio</h1>
-        <h2>À Propos de Moi</h2>
+        <div class="header">
+            <img src="/img/banderoleinfo.jpg"/>
+            <h1>Bienvenue sur mon Portfolio</h1>
+        </div>
     </header>
-
-    <br/>
-
-    <p>Je m'appelle Pierre TRIOULIER, j'ai 18 ans. <br/> Je fais de l'informatique depuis mes <strong>12 ans</strong> et cela me passionne.</p>
-    <br/>
-    <nav>
-        <a href="/index.html">Acceuil</a>
-        <br/>
-        <a href="/pages/activities.html">Mes Activités</a>
+    <nav class="topbar">
+        <ul>
+            <li><a href="../index.html">Accueil</a></li>
+            <li><a href="/pages/about_me.html" class="active">À propos de moi</a></li>
+            <li><a href="/pages/activities.html">Activités</a></li>
+        </ul>
     </nav>
     <br/>
-    <br/>
+    <div class="user">
+        <img src="/img/Pierre.jpeg"/>
+        <p class="nom">Pierre TRIOULIER</p>
+    </div>
+    <br/><br/>
 
     <img src="/img/school.png" alt="School" title="École" width="300" height="300">
     <table border=1>

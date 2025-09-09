@@ -3,26 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Mon Portfolio</title>
 </head>
 <body>
     <header>
-        <img src=""/>
-        <h1>Bienvenue sur mon Portfolio</h1>
-        <h2>Acceuil</h2>
+        <div class="header">
+            <img src="/img/banderoleinfo.jpg"/>
+            <h1>Bienvenue sur mon Portfolio</h1>
+        </div>
     </header>
-    <br/>
-    
-    <img src="/img/Pierre.jpeg" width="150" height="187.5"/>
-    <h3>Pierre TRIOULIER</h3>
-    <br/><br/>
-
-    <nav>
-        <a href="/pages/about_me.html">À Propos De Moi</a>
-        <br/>
-        <a href="/pages/activities.html">Mes Activités</a>
+    <nav class="topbar">
+        <ul>
+            <li><a href="#accueil" class="active">Accueil</a></li>
+            <li><a href="/pages/about_me.html">À propos de moi</a></li>
+            <li><a href="/pages/activities.html">Activités</a></li>
+        </ul>
     </nav>
     <br/>
+    <div class="user">
+        <img src="/img/Pierre.jpeg"/>
+        <p class="nom">Pierre TRIOULIER</p>
+    </div>
+    <br/><br/>
 
     <div>
         <section>
@@ -54,10 +57,10 @@
     </div>
     <br/><br/>
 
-    <footer>
-        <p>Pierre TRIOULIER<br/>
-        BUT Informatique Groupe 1<br/>
-        pierre.trioulier@etu.uca.fr</p>
+    <footer class="footer">
+        <p>Pierre TRIOULIER</p>
+        <p>BUT Informatique Groupe 1</p>
+        <p><a href="mailto:pierre.trioulier@etu.uca.fr">pierre.trioulier@etu.uca.fr</a></p>
     </footer>
 </body>
 </html>
